@@ -117,3 +117,15 @@ body {
     height: 550px;
     width: 550px;
 }
+
+.image-404 {
+    height: 155px;
+    width: 550px;
+}
+
+.reset-body{
+    all: initial;
+    * {
+        all: unset;
+    }
+}
