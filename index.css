@@ -1,0 +1,119 @@
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-color: transparent;
+    height: 75px;
+    background-color: #1FAB89;
+    width: 100%;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 75px;
+    height: 75px;
+    padding-top: 0;
+    color: white;
+}
+
+.navbar-nav li a:hover {
+    background: #2FBB99;
+}
+
+/*
+.currently_active {
+    background: #684A5F;
+}
+*/
+
+p {
+    font-family: Roboto;
+    color: #393E46;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.white-footer {
+    color: #BBBBBB;
+}
+
+h1 {
+    padding-top: 115px;
+    font-size: 300%;
+    font-family: Roboto;
+    color: #393E46;
+}
+
+.landing-text {
+    font-size: 150%;
+    font-family: Roboto;
+    color: #393E46;
+}
+
+body {
+    padding-top: 75px;
+}
+@media (max-width: 768px) {
+    body {
+        padding-top: 0px;
+    }
+}
+
+.text-links:link, .text-links:visited {
+    color: #1FAB89;
+}
+
+.text-links:hover {
+    color: #4FDBB9;
+    text-decoration: none;
+}
+
+/* save this #5B687E */
+
+.color-button {
+    background: #797E86;
+    color: white;
+}
+
+.color-button:hover {
+    background: #2FBB99;
+    color: white;
+}
+
+.color-link {
+    color: #393E46;
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+
+.color-link:hover {
+    color: #FFFFFF;
+}
+
+.input-group-addon {
+    min-width: 55px;
+}
+
+.input-group-lg>.form-control {
+    height: auto;
+}
+
+textarea {
+    height: auto;
+}
+
+body {
+    background: #393E46;
+}
+
+.image-round {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+}
+
+.image-main {
+    height: 550px;
+    width: 550px;
+}
