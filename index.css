@@ -4,20 +4,19 @@
     border-radius: 0;
     border-color: transparent;
     height: 75px;
-    background-color: #1FAB89;
+    background-color: #516FAD;
     width: 100%;
 }
 
 .navbar-brand,
 .navbar-nav li a {
     line-height: 75px;
-    height: 75px;
-    padding-top: 0;
     color: white;
+    display: inline;
 }
 
 .navbar-nav li a:hover {
-    background: #2FBB99;
+    background: #617FBD;
 }
 
 /*
@@ -27,7 +26,7 @@
 */
 
 p {
-    font-family: Roboto;
+    font-family: Roboto Thin;
     color: #393E46;
 }
 
@@ -42,13 +41,13 @@ p {
 h1 {
     padding-top: 115px;
     font-size: 300%;
-    font-family: Roboto;
+    font-family: Roboto Thin;
     color: #393E46;
 }
 
 .landing-text {
     font-size: 150%;
-    font-family: Roboto;
+    font-family: Roboto Thin;
     color: #393E46;
 }
 
@@ -62,11 +61,11 @@ body {
 }
 
 .text-links:link, .text-links:visited {
-    color: #1FAB89;
+    color: #718FCD;
 }
 
 .text-links:hover {
-    color: #4FDBB9;
+    color: #91AFED;
     text-decoration: none;
 }
 
@@ -78,7 +77,7 @@ body {
 }
 
 .color-button:hover {
-    background: #2FBB99;
+    background: #718FCD;
     color: white;
 }
 
@@ -108,8 +107,8 @@ body {
 }
 
 .image-round {
-    height: 175px;
-    width: 175px;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
 }
 
