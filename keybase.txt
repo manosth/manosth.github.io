@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/manostheodosis
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://manosth.github.io
+  * I am manostheodosis (https://keybase.io/manostheodosis) on keybase.
+  * I have a public key with fingerprint 76BD 32A4 C109 7154 0601  2BA0 13ED F148 5658 61C3
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01201b5f24daa002db740a5ef18eec48a8dcfbadab5a3a010d2db53db7a8efe1bfa00a",
+            "fingerprint": "76bd32a4c109715406012ba013edf148565861c3",
+            "host": "keybase.io",
+            "key_id": "13edf148565861c3",
+            "kid": "0101a0311a9dba795a86e0f0c0fa73401cb0a8053cb23cea138b93a0b6a4b22228ec0a",
+            "uid": "1d3b9fa7bc2110339fd239dc339e0719",
+            "username": "manostheodosis"
+        },
+        "service": {
+            "hostname": "manosth.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1495637110,
+    "expire_in": 157680000,
+    "prev": "d2fb0cdefff06d91a5a442502817b9bb2b476f432e80499d1b2a3cfe4aff7619",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.70
+Comment: https://keybase.io/crypto
+
+yMNpAnicbZJrTFRHGIaXW0WiwahVsa2G0xhKRDrnfs4GtAGsWqCX0ABGZDtzzpzd
+I+wu3QuFWAi1NGnrhYZiFYICClVkU9pEkS5xK+sKpStJG0itF4rYy8YiscSAEdPS
+Waw/mnT+zO153+/9JhNYGmWIi1gxNb09vxBeigj2n3Qbdm5oLt9LIbtaSRn3UiV4
+YcKlKna6TCW6ShkpQDOARrzGcCqEADAqEjkAeazREsYKJ0FJVTQEVYh4yEJAA5Ug
+PEswKGEN00gjKkilUJpuM2NHmUO3uYitKCCVZSCn0EAWaZ4DAimEiJ7FqkZzEi/w
+kkArLBFa7M6wgoRD0IlTdTs5IxvTQrz/4Z/kBjQELE1DWUVQlHkoCRhoQAEaFFkO
+0AoCUAI8qyCGVTCkWQnJpAEkQA4xZEhYWcjtflxHZZFMlEhhaBqwrKypDCurCllh
+INJyGHRihw1aMaGt0EZCW7BdtTt1J1WVQpG7cl3B4ecN9/NfLtWsuyxu9Li1Mofd
+ZVfspeTa4nKVOY1huauyLMy/g5HpXycT0m0qeVKiKMcOp263UUaakIpLD1vTnMwL
+rEiyplC4okx3YJMeJnhRkAAZ4Tq4nFiqjIaAomJN04CgyjTkIccxPGAkWkQyQgzi
+REHjWAZLgJNllUYMZBUNc1DTRGGhcSd+22YPlyQ5oZl4OnWzDbrcDkxV+fuLog0R
+cYanYiLDf80Qt3jZkx/oleP/TkkKdYxb3i0Ibj23kp5s0kxTiypGarvvNT7o2pPg
+xxtP7Dnmzlq/fyo2u2tfb1b/z92/vrnk8uDBZdeeKYp8Xi8fP1eUcdp8YPPxQPvB
+tLGeLfLc3Q/m759uloacjr/4O/WG5qbnelucynzj6KWWme8qImuKjbNI82QqWnCN
+vbTteN5s3aLzmdf6PvvCF3jki+8FN390zGSHXrzdVfjVPkp8/y0voAJ88vdjrycO
+t3gaP8/vrL1T3YyvC2m5Q40lRzTPrRurt3bG31o2Mb0t+XY/b4yp2vLpD3+4C1pG
+djxs6Im/0LCSV984fCbt6YgHG38P9X0ykBxbn2IJReVtv5q1Y64tc0S+/HH0XL2a
+2Ne0qfLDw0d3p1dW97TGha6A6cFgt2CNrRUO7NoJ2ZrQmQaG2uB6byrVxxbM+kNX
+vjG+3J41/NHIlLt48tS2JYO8a6j94vnf2o7M5BxyL754N2PAALPMDzNr8naNDfRl
+nW1f8+criuc1b3V6TLFcu7mgcy01ss4fqbP3g778uhcCBesTHlV3rLq3qfjmq7sb
+LV0XTvTNtw77Tmav9XmiR4/pcRkVqwPprSWH/N7l/hVNHu+zEx1J4pfJiUe/zbau
+6kzy5E78ouRkWunCIIhJ8Nat46OYqz9ZXxrt/tqwtNAqo+sVY5OmxPGc3MKz4NTy
+jKioGzP7/wFLkMnJ
+=nYf0
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/manostheodosis
+
+==================================================================
