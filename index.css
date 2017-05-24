@@ -82,12 +82,12 @@ body {
 }
 
 .color-link {
-    color: #393E46;
-    -webkit-text-stroke: 1px #FFFFFF;
+    color: #F5F5F5;
+    -webkit-text-stroke: 1px #393E46;
 }
 
 .color-link:hover {
-    color: #FFFFFF;
+    color: #393E46;
 }
 
 .input-group-addon {
@@ -103,7 +103,7 @@ textarea {
 }
 
 body {
-    background: #393E46;
+    background: #FAFAFA;
 }
 
 .image-round {
