@@ -1,14 +1,37 @@
-.navbar {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    border-color: transparent;
-    height: 75px;
-    background-color: #516FAD;
-    width: 100%;
+.navbar-inverse {
+  background: #1FAB89;
+  color: #ffffff;
+  border: 0px;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background: #1FAB89;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: #1FAB89;
+  color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: #1FAB89;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a {
+  background: #1FAB89;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: #1DA987;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: #1FAB89;
+  color: #ffffff;
 }
 
-.navbar-brand,
+.navbar-inverse .navbar-nav li a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .navbar-nav li a {
     line-height: 75px;
     color: white;
@@ -18,6 +41,8 @@
 .navbar-nav li a:hover {
     background: #617FBD;
 }
+
+.page-divider{border:none !important;};
 
 .unselectable {
     -webkit-touch-callout: none;
@@ -64,11 +89,11 @@ body {
 }
 
 .text-links:link, .text-links:visited {
-    color: #718FCD;
+    color: #2FBB99;
 }
 
 .text-links:hover {
-    color: #91AFED;
+    color: #4FDBB9;
     text-decoration: none;
 }
 
@@ -80,7 +105,7 @@ body {
 }
 
 .color-button:hover {
-    background: #718FCD;
+    background: #2FBB99;
     color: white;
 }
 

@@ -12,19 +12,28 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a href="index.html">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#">
                         <img alt"Brand" src="images/simple logo.png" style="width: 50px; height: 50px; margin-top: 13px" onmouseover="this.src='images/simple logo hover.png'" onmouseout="this.src='images/simple logo.png'">
                     </a>
                 </div>
-                <ul class="nav navbar-nav navbar-right nav-pills">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="projects.html">PROJECTS</a></li>
-                    <li><a href="competitions.html">COMPETITIONS</a></li>
-                    <li><a class="currently-active" href="#">CERTIFICATES</a></li>
-                </ul>
+                <div id="navbar" class="navbar-collapse collapse navbar-right">
+                    <!-- nav-pills -->
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="competitions.html">COMPETITIONS</a></li>
+                        <li class="active"><a href="#">CERTIFICATES</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
@@ -40,6 +49,15 @@
                     <br>
                     <p style="font-size: 400%;">Certificates</p>
                     <p style="font-size: 125%;">I believe in lifelong learning, and learning whenever you can, and from the best people. For this reasons, I devote a significant amount of my time learning online through various platforms.</p>
+                    <br>
+                    <p>Here is a small legend of the icons in this page:
+                    <br>
+                    <kbd class="unselectable" style="background-color: #DA6465; color: #FAFAFA; font-size: 100%; font-family: 'Cutive Mono';">Mentor</kbd> - I am a mentor in this course.
+                    <br>
+                    <kbd class="unselectable" style="background-color: #91AFED; color: #FAFAFA; font-size: 100%; font-family: 'Cutive Mono';">Honors</kbd> - I passed this course with honors.
+                    <br>
+                    <kbd class="unselectable" style="background-color: #4FDBB9; color: #FAFAFA; font-size: 100%; font-family: 'Cutive Mono';">Distin</kbd> - I received a distinction in this course.
+                    </p>
                 </div>
             </div>
         </div>
@@ -69,7 +87,6 @@
                     <br>
                     - <a class="text-links" href="https://www.coursera.org/learn/fundamentals-of-computing-capstone" target="_blank">The Fundamentals of Computing Capstone Exam</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/verify/CF3WEMNVZSNJ" target="_blank">here</a>.
                     <br>
-                    <br>
                     The whole specialization can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/specialization/DWFEUK3CA3UK" target="_blank">here</a>.
                 </p>
                 </div>
@@ -80,19 +97,85 @@
                 </div>
                 <div class="col-sm-10" style="padding-top: 30px;">
                     <p style="font-size: 200%;">Machine Learning Specialization</p>
-                    <p><a class="text-links" href="https://www.coursera.org/specializations/machine-learning" target="_blank">Machine Learning</a> is a specialization by Univeristy of Washington about Machine Learning. The premise is that students begin with an introductory course that gives a rough estimate of various Machine Learning fiels, and then subsequent courses go into depth into these fields.. It consists of the following courses:
+                    <p><a class="text-links" href="https://www.coursera.org/specializations/machine-learning" target="_blank">Machine Learning</a> is a specialization by Univeristy of Washington about Machine Learning. The premise is that students begin with an introductory course that gives a rough estimate of various Machine Learning fiels, and then subsequent courses go into depth into these fields. It consists of the following courses:
                     <br>
                     <br>
                     - <a class="text-links" href="https://www.coursera.org/learn/ml-foundations" target="_blank">Machine Learning Foundations: A Case Study Approach</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/2LPTXLGYAR36" target="_blank">here</a>.
                     <br>
-                    - <kbd class="unselectable" style="background-color: #EA5455; color: #FAFAFA; font-size: 100%; font-family: 'Cutive Mono';">Mentor</kbd> <a class="text-links" href="https://www.coursera.org/learn/ml-regression#" target="_blank">Machine Learning: Regression</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/TQCRKKDLAMHN" target="_blank">here</a>.
+                    - <kbd class="unselectable" style="background-color: #DA6465; color: #FAFAFA; font-size: 100%; font-family: 'Cutive Mono';">Mentor</kbd> <a class="text-links" href="https://www.coursera.org/learn/ml-regression" target="_blank">Machine Learning: Regression</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/TQCRKKDLAMHN" target="_blank">here</a>.
                     <br>
                     - <a class="text-links" href="https://www.coursera.org/learn/ml-classification" target="_blank">Machine Learning: Classification</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/WWHSJGXLRS7V" target="_blank">here</a>.
                     <br>
-                    - <a class="text-links" href="https://www.coursera.org/learn/ml-clustering-and-retrieval" target="_blank">Machine Learning: Clustering & Retrieval</a>: the certificate for this course can be verified <a class="text-links" href="#" target="_blank">here (WIP)</a>.
+                    - <a class="text-links" href="https://www.coursera.org/learn/ml-clustering-and-retrieval" target="_blank">Machine Learning: Clustering & Retrieval</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/LE9QG55CA7VL" target="_blank">here</a>.
+                    <br>
+                    The whole specialization can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/specialization/TW86RJMKE58L" target="_blank">here</a>.
+                </div>
+                <div class="col-sm-2" style="clear: left; padding-top: 30px;">
+                    <center>
+                        <a href="https://www.coursera.org/specializations/probabilistic-graphical-models" target="_blank"><img src="images/coursera.png" onmouseover="this.src='images/coursera light.png'" onmouseout="this.src='images/coursera.png'" class="image-round"></a>
+                    </center>
+                </div>
+                <div class="col-sm-10" style="padding-top: 30px;">
+                    <p style="font-size: 200%;">Probabilistic Graphical Models Specialization</p>
+                    <p><a class="text-links" href="https://www.coursera.org/specializations/probabilistic-graphical-models" target="_blank">Probabilistic Graphical Models</a> is a specialization by Stanford University about the uses and applications of graphical models. It is replica of Stanford's own graduate course on Probabilistic Graphical Models, and it is extremely demanding, one of the only specializations in Coursera tagged as "Advanced". It consists of the following courses:
                     <br>
                     <br>
-                    The whole specialization can be verified <a class="text-links" href="#" target="_blank">here (WIP)</a>.
+                    - <kbd class="unselectable" style="background-color: #91AFED; color: #FAFAFA; font-size: 100%; font-family: 'Cutive Mono';">Honors</kbd> <a class="text-links" href="https://www.coursera.org/learn/probabilistic-graphical-models" target="_blank">Probabilistic Graphical Models 1: Representation</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/2LPTXLGYAR36" target="_blank">here</a>.
+                    <br>
+                    <br>
+                    The rest of the courses are work-in-progress (I am currently taking the second one), but they are listed here for completeness.
+                    <br>
+                    - <a class="text-links" href="https://www.coursera.org/learn/probabilistic-graphical-models-2-inference" target="_blank">Probabilistic Graphical Models 2: Inference</a>.
+                    <br>
+                    - <a class="text-links" href="https://www.coursera.org/learn/probabilistic-graphical-models-3-learning" target="_blank">Probabilistic Graphical Models 3: Learning</a>.
+                    <br>
+                </div>
+                <div class="col-sm-2" style="clear: left; padding-top: 30px;">
+                    <center>
+                        <a href="https://www.coursera.org/specializations/data-science" target="_blank"><img src="images/coursera.png" onmouseover="this.src='images/coursera light.png'" onmouseout="this.src='images/coursera.png'" class="image-round"></a>
+                    </center>
+                </div>
+                <div class="col-sm-10" style="padding-top: 30px;">
+                    <p style="font-size: 200%;">Data Science at Scale Specialization</p>
+                    <p><a class="text-links" href="https://www.coursera.org/specializations/data-science" target="_blank">Data Science at Scale</a> is a specialization by University of Washington about data science. It is a rigorous specialization that tries to tackle data science holistically, and provide intuition. It consists of the following courses:
+                    <br>
+                    <br>
+                    - <a class="text-links" href="https://www.coursera.org/learn/data-manipulation" target="_blank">Data Manipulation at Scale: Systems and Algorithms</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/ZJFH8DABM5V4" target="_blank">here</a>.
+                    <br>
+                    - <a class="text-links" href="https://www.coursera.org/learn/predictive-analytics" target="_blank">Practical Predictive Analytics: Models and Methods</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/2CZP3FKSBS8D" target="_blank">here</a>.
+                    <br>
+                    <br>
+                    The rest of the courses are work-in-progress, but they are listed here for completeness.
+                    <br>
+                    - <a class="text-links" href="https://www.coursera.org/learn/data-results" target="_blank">Communicating Data Science Results</a>.
+                    <br>
+                    - <a class="text-links" href="https://www.coursera.org/learn/datasci-capstone" target="_blank">Data Science at Scale - Capstone Project</a>.
+                    <br>
+                </div>
+                <div class="col-sm-2" style="clear: left; padding-top: 30px;">
+                    <center>
+                        <a href="#" target="_blank"><img src="images/coursera.png" onmouseover="this.src='images/coursera light.png'" onmouseout="this.src='images/coursera.png'" class="image-round"></a>
+                    </center>
+                </div>
+                <div class="col-sm-10" style="padding-top: 30px;">
+                    <p style="font-size: 200%;">Other courses:</p>
+                    <p>Besides complete specializations, I have taken other courses as well:
+                    <br>
+                    <br>
+                    - <kbd class="unselectable" style="background-color: #91AFED; color: #FAFAFA; font-size: 100%; font-family: 'Cutive Mono';">Honors</kbd> <a class="text-links" href="https://www.coursera.org/learn/bayesian-statistics" target="_blank">Bayesian Statistics: From Concept to Data Analysis</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/SSD6MFWYYR5E" target="_blank">here</a>.
+                    <br>
+                    - <a class="text-links" href="https://www.coursera.org/learn/machine-learning" target="_blank">Machine Learning</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/QBEFLQS8XYKR" target="_blank">here</a>.
+                    <br>
+                    - <a class="text-links" href="https://www.coursera.org/learn/game-development" target="_blank">Introduction to Game Development</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/B9SPBFSVCGYZ" target="_blank">here</a>.
+                    <br>
+                    - <a class="text-links" href="https://www.coursera.org/learn/internet-history" target="_blank">Internet History, Technology, and Security</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/39PYSUT9ZU72" target="_blank">here</a>.
+                    <br>
+                    - <kbd class="unselectable" style="background-color: #4FDBB9; color: #FAFAFA; font-size: 100%; font-family: 'Cutive Mono';">Distin</kbd> <a class="text-links" href="#">Programming for Everybody (Python)</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/gm4YP74WVabVYBSh" target="_blank">here</a> (no longer available as an independent course).
+                    <br>
+                    - <a class="text-links" href="#">HTML, CSS and JavaScript</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/FSQVS28VUWWJ" target="_blank">here</a> (no longer available as an independent course).
+                    <br>
+                    - <a class="text-links" href="#">Front-End Web UI Frameworks and Tools</a>: the certificate for this course can be verified <a class="text-links" href="https://www.coursera.org/account/accomplishments/records/5KYQYKQ6TDNQ" target="_blank">here</a> (no longer available as an independent course).
+                    <br>
                 </div>
             </div>
         </div>

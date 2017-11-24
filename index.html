@@ -2,14 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hi, I'm Manos!</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
-
-        <title>Hi, I'm Manos!</title>
-
         <script src="https://use.fontawesome.com/e0dd48ea0f.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -33,40 +32,50 @@
  -->
 
     <body>
-        <nav class="navbar navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a href="#">
                         <img alt"Brand" src="images/simple logo.png" style="width: 50px; height: 50px; margin-top: 13px" onmouseover="this.src='images/simple logo hover.png'" onmouseout="this.src='images/simple logo.png'">
                     </a>
                 </div>
-                <ul class="nav navbar-nav navbar-right nav-pills">
-                    <li><a class="currently-active" href="#">HOME</a></li>
-                    <li><a href="projects.html">PROJECTS</a></li>
-                    <li><a href="competitions.html">COMPETITIONS</a></li>
-                    <li><a href="certificates.html">CERTIFICATES</a></li>
-                </ul>
+                <div id="navbar" class="navbar-collapse collapse navbar-right">
+                    <!-- nav-pills -->
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">HOME</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="competitions.html">COMPETITIONS</a></li>
+                        <li><a href="certificates.html">CERTIFICATES</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
-
-        <div class="container-fluid" style="height: 550px; background-color: #FAFAFA;">
-            <center>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <!--
-                        <p style="color: #393E46; font-size: 1750%; text-shadow: 8px 8px #B395AA;"><i class="fa fa-user-circle" aria-hidden="true"></i></p>
-                        -->
-                        <img src="images/manos desk.png" class="image-main" aling="left">
+        <header>
+            <div class="container-fluid" style="background-color: #FAFAFA;">
+                <center>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <!--
+                            <p style="color: #393E46; font-size: 1750%; text-shadow: 8px 8px #B395AA;"><i class="fa fa-user-circle" aria-hidden="true"></i></p>
+                            -->
+                            <img src="images/manos desk.png" class="img-responsive" aling="left">
+                        </div>
+                        <div class="col-sm-6">
+                            <h1 style="color: #393E46;">Hi, I'm Manos!</h1>
+                            <p class="landing-text">I hope you'll have a nice time here. I am an electrical engineering student at <a class="text-links" href="#">National Technical University of Athens</a>, studying machine learning and mathematics. Hopefully, I'll graduate by June.
+                            This is <a class="text-links" href="www.kyfdgfgdds.com">another</a> link.</p>
+                            <p><a class="btn btn-lg color-button" href="#" role="button">Contact</a></p>
+                        </div>
                     </div>
-                    <div class="col-sm-6">
-                        <h1 style="color: #393E46;">Hi, I'm Manos!</h1>
-                        <p class="landing-text">I hope you'll have a nice time here. I am an electrical engineering student at <a class="text-links" href="#">National Technical University of Athens</a>, studying machine learning and mathematics. Hopefully, I'll graduate by June.
-                        This is <a class="text-links" href="www.kyfdgfgdds.com">another</a> link.</p>
-                        <p><a class="btn btn-lg color-button" href="#" role="button">Contact</a></p>
-                    </div>
-                </div>
-            </center>
-        </div>
+                </center>
+            </div>
+        </header>
 
         <div class="container-fluid" style="background-color: #F8F8F8;">
             <div class="row">
