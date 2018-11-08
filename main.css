@@ -1,6 +1,6 @@
 body
 {
-  font-family: open-sans, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 13pt;
   color: #E5E4E2;
   background-color: #161314;
@@ -33,7 +33,7 @@ hr {
 
 .title_text
 {
-    font-family: league-gothic, sans-serif;
+    font-family: impact, sans-serif;
     font-weight: 750;
     font-size: 50pt;
     line-height: 54pt;
@@ -42,7 +42,7 @@ hr {
 
 .subtitle_text
 {
-    font-family: league-gothic, sans-serif;
+    font-family: impact, sans-serif;
     font-size: 20pt;
     color: #E5E4E2;
 }
