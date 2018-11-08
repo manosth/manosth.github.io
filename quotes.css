@@ -1,6 +1,6 @@
 body
 {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 11pt;
   color: #E5E4E2;
   background-color: #161314;
@@ -26,14 +26,14 @@ hr {
 
 .content_container
 {
-    width: 800px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .title_text
 {
-    font-family: Impact, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 750;
     font-size: 36pt;
     line-height: 54pt;
@@ -42,7 +42,7 @@ hr {
 
 .subtitle_text
 {
-    font-family: Impact, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14pt;
     color: #E5E4E2;
 }
