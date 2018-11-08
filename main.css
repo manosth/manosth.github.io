@@ -1,7 +1,7 @@
 body
 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 13pt;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
   color: #E5E4E2;
   background-color: #161314;
 }
@@ -48,7 +48,7 @@ hr {
 }
 
 .nav-pills{
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .nav-pills > li > a

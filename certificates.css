@@ -1,7 +1,7 @@
 body
 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 13pt;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
   color: #E5E4E2;
   background-color: #161314;
 }
@@ -34,7 +34,7 @@ hr {
 .title_text
 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 750;
+    font-weight: 900;
     font-size: 36pt;
     line-height: 54pt;
     color: #E5E4E2;
@@ -45,20 +45,6 @@ hr {
     font-family: 'Raleway', sans-serif;
     font-size: 14pt;
     color: #E5E4E2;
-}
-
-.nav-pills{
-    font-weight: 100;
-}
-
-.nav-pills > li > a
-{
-    background-color: #161314 !important;
-}
-
-.nav-pills > .active
-{
-    font-weight: 800;
 }
 
 .color-link
