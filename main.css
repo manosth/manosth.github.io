@@ -1,0 +1,89 @@
+body
+{
+  font-family: open-sans, sans-serif;
+  font-size: 13pt;
+  color: #E5E4E2;
+  background-color: #161314;
+}
+
+hr {
+    opacity: 0.25;
+}
+
+.text-link:link, .text-link:visited {
+    color: #BE9BFF;
+}
+
+.text-link:hover {
+    color: #9E7BFF;
+    text-decoration: none;
+}
+
+.main_container
+{
+
+}
+
+.content_container
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title_text
+{
+    font-family: league-gothic, sans-serif;
+    font-weight: 750;
+    font-size: 50pt;
+    line-height: 54pt;
+    color: #E5E4E2;
+}
+
+.subtitle_text
+{
+    font-family: league-gothic, sans-serif;
+    font-size: 20pt;
+    color: #E5E4E2;
+}
+
+.nav-pills{
+    font-weight: 100;
+}
+
+.nav-pills > li > a
+{
+    background-color: #161314 !important;
+}
+
+.nav-pills > .active
+{
+    font-weight: 800;
+}
+
+.color-link
+{
+    color: #E5E4E2 !important;
+}
+
+.color-link:hover
+{
+    -webkit-text-stroke: 1px #E5E4E2;
+    color: #161314 !important;
+}
+
+.emph
+{
+  color: #c02020;
+}
+
+.emphblack
+{
+  color: #000000;
+  font-weight: 700;
+}
+
+.splash
+{
+  line-height: 20pt;
+}
