@@ -33,7 +33,7 @@
 <div style="padding-top: 25px;" class="splash">
 <div style="padding: 5px 0px 5px 0px">
 <h3>Introduction</h3>
-I once heard two people at my university discussing a math problem. They claimed that that a friend of theirs was asked, during a Skype interview for admission to Columbia's Computer Science PhD program, the following question:
+I once heard two people at my university discussing a math problem. They claimed that a friend of theirs was asked, during a Skype interview for admission to Columbia's Computer Science PhD program, the following question:
 <br>
 <br>
 <center>
@@ -41,7 +41,7 @@ I once heard two people at my university discussing a math problem. They claimed
     <i>"Suppose the following experiment: we draw random samples, one at a time, from a uniform distribution. The experiment ends when we draw a sample that was greater from the last. What is the expected time $n$ that the experiment will run for?"</i>
     </p>
 </center>
-Now, this is a very interesting question. On the surface, it looks very simple and easy. For simplicity, let's assume that the probability distribution is $\textrm{unif}(0, 1)$. Essentially this means that at each step we are picking a random number in the range $[0, 1]$. The mean of this distribution is $\mu = 0.5$. So, if we choose a sample at random, it is most likely to be close to $0.5$.
+Now, this is a very interesting question. On the surface, it looks very simple and easy. For simplicity, let's assume that the probability distribution is $\mathcal{U}(0, 1)$. Essentially this means that at each step we are picking a random number in the range $[0, 1]$. The mean of this distribution is $\mu = 0.5$. So, if we choose a sample at random, it is most likely to be close to $0.5$.
 <br>
 <br>
     <center>
@@ -91,7 +91,7 @@ In the above code, we run $t = 1000000$ iterations of the experiment and stored 
 <br>
 <br>
 <h3>Formalising the problem</h3>
-Let us model the experiment using a random variable $X$. The random variable $X$ denotes the probability of the experiment ending after $n$ draws. Since we need to draw at least two samples for the experiment to end, it follows that $n \geq 2$. The answer to the question is essentially the expected value of $X$
+Let us model the experiment using a random variable $X$. The random variable $X$ denotes the probability of the experiment ending after $n$ draws. Since we need to draw at least two samples for the experiment to end, it follows that $n \geq 2$. The answer to the question is essentially the expected value of $X$ &nbsp;
 $$
 E[X] = \sum_{n=2}^{\infty}n \cdot P[X = n]
 $$
@@ -156,7 +156,7 @@ I find this problem very interesting for a few reasons:
     <li>The mathematical constant $e$ arises at the very end. It is very frequent for students to question teachers about how the mathematical constants are used in practice; this is a good, and unexpected, example.</li>
 </ul>
 <hr>
-<p><sup><span style="color:#BE9BFF;" id="footnote1">1</span></sup><span style="font-size:85%;">: &nbsp;This is not trivial to understand or to prove. Intuitively, since we have taken $n-1$ uniformly distributed samples, the probabilistic assumption is that they will be uniformly distributed. Then another sample taken from that uniform probability is equally likely to fall in each of the beans created by the other samples. This can be formally proven using mathematical induction, but it is cumbersome.</span></p>
+<p><sup><span style="color:#BE9BFF;" id="footnote1">1</span></sup><span style="font-size:85%;">: &nbsp;This is not trivial to understand or to prove. Intuitively, since we have taken $n-1$ uniformly distributed samples, the probabilistic assumption is that they will be uniformly distributed. Then another sample taken from that uniform distribution is equally likely to fall in each of the bins created by the other samples. This can be formally proven using mathematical induction, but it is cumbersome.</span></p>
 </div>
 </div>
 </div>
