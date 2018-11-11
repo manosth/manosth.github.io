@@ -131,7 +131,7 @@ Now we have two probabilities to compute; however, they are significantly easier
             Figure 4: Possible position for the new sample.
         </center>
     <br>
-    Again, because the distribution is uniform, each of these positions are equally likely. So at what place does the probabilty $P[x_n > x_{n-1} | x_{n-1} < x_{n-2} < ... < x_{1}]$ wants the new sample placed? The only condition is that $x_n$ needs to be larger than $x_{n-1}$. But $x_{n-1}$ is the leftmost ball in the ordering. So, any position <i>but</i> the leftmost one will satisfy this constraint. Since, out of the $n$ possible positions, the $n-1$ satisfy the constaint, it follows that $P[x_n > x_{n-1} | x_{n-1} < x_{n-2} < ... < x_{1}] = \frac{n-1}{n}$.</li>
+    Again, because the distribution is uniform, each of these positions are equally likely<sup><a class="text-link" href="#footnote1">1</a></sup>. So at what place does the probabilty $P[x_n > x_{n-1} | x_{n-1} < x_{n-2} < ... < x_{1}]$ wants the new sample placed? The only condition is that $x_n$ needs to be larger than $x_{n-1}$. But $x_{n-1}$ is the leftmost ball in the ordering. So, any position <i>but</i> the leftmost one will satisfy this constraint. Since, out of the $n$ possible positions, the $n-1$ satisfy the constaint, it follows that $P[x_n > x_{n-1} | x_{n-1} < x_{n-2} < ... < x_{1}] = \frac{n-1}{n}$.</li>
 </ul>
 Combining these two results, we can now compute the original probability
 $$
@@ -155,6 +155,8 @@ I find this problem very interesting for a few reasons:
     <li>While reasoning about this problem seems to be rather easy, the formal analysis is significantly more convoluted. I think this is interesting because it allows people to think; we often dismiss certain statements because they seem obvious, and we might be correct. However, many obvious statements have rather obfuscated explanations.</li>
     <li>The mathematical constant $e$ arises at the very end. It is very frequent for students to question teachers about how the mathematical constants are used in practice; this is a good, and unexpected, example.</li>
 </ul>
+<hr>
+<p><sup><span style="color:#BE9BFF;" id="footnote1">1</span></sup><span style="font-size:85%;">: &nbsp;This is not trivial to understand or to prove. Intuitively, since we have taken $n-1$ uniformly distributed samples, the probabilistic assumption is that they will be uniformly distributed. Then another sample taken from that uniform probability is equally likely to fall in each of the beans created by the other samples. This can be formally proven using mathematical induction, but it is cumbersome.</span></p>
 </div>
 </div>
 </div>
