@@ -6,7 +6,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/blog.css">
+  <link rel="stylesheet" type="text/css" href="../css/posts.css">
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
@@ -16,22 +16,24 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
   </script>
   <link rel="stylesheet"
-     href="css/styles/atom-one-dark.css">
-  <script src="js/highlight.pack.js"></script>
+     href="../css/styles/atom-one-dark.css">
+  <script src="../js/highlight.pack.js"></script>
 </head>
 
 <body>
 <div class="main_container">
 <div class="content_container">
   <div style="padding-top: 5px">
+      <p style="float:right; margin-top:20px; font-size:300%;">
+         <a class="text-link" href="https://manosth.github.io/blog"><i class="fas fa-arrow-left"></i></a>
+      </p>
   <div class="title_text">
   <div>Columbia Interview Question</div>
   </div>
+  <hr>
   </div>
 
 <div style="clear:both;"></div>
-<div style="padding-top: 25px;" class="splash">
-<div style="padding: 5px 0px 5px 0px">
 <h3>Introduction</h3>
 I once heard two people at my university discussing a math problem. They claimed that a friend of theirs was asked, during a Skype interview for admission to Columbia's Computer Science PhD program, the following question:
 <br>
@@ -45,7 +47,7 @@ Now, this is a very interesting question. On the surface, it looks very simple a
 <br>
 <br>
     <center>
-        <img src="images/figure0.svg" width="80%" alt="First sample at 0.5"/><br>
+        <img src="../images/figure0.svg" width="80%" alt="First sample at 0.5"/><br>
         <br>
         Figure 1: Expected placing for the first sample based on the mean $\mu$.
     </center>
@@ -54,7 +56,7 @@ So what about the second sample we draw? Well, since it is uniformly random, a s
 <br>
 <br>
     <center>
-        <img src="images/figure1.svg" width="80%" alt="Second sample unknown"/><br>
+        <img src="../images/figure1.svg" width="80%" alt="Second sample unknown"/><br>
         <br>
         Figure 2: Two possible placings for the second sample.
     </center>
@@ -63,7 +65,7 @@ It seems pretty possible that the experiment could end at $n = 2$, right? And ev
 <br>
 <br>
     <center>
-        <img src="images/figure2.svg" width="80%" alt="Third sample small"/><br>
+        <img src="../images/figure2.svg" width="80%" alt="Third sample small"/><br>
         <br>
         Figure 3: Possible placings for the third sample.
     </center>
@@ -115,7 +117,7 @@ Now we have two probabilities to compute; however, they are significantly easier
     <br>
     <br>
         <center>
-            <img src="images/figure3.svg" width="80%" alt="Combinatorics"/><br>
+            <img src="../images/figure3.svg" width="80%" alt="Combinatorics"/><br>
             <br>
             Figure 3: Ordering 5 labeled balls.
         </center>
@@ -126,7 +128,7 @@ Now we have two probabilities to compute; however, they are significantly easier
     <br>
     <br>
         <center>
-            <img src="images/figure4.svg" width="80%" alt="New sample position"/><br>
+            <img src="../images/figure4.svg" width="80%" alt="New sample position"/><br>
             <br>
             Figure 4: Possible position for the new sample.
         </center>
@@ -143,7 +145,7 @@ E[X] = \sum_{n=2}^{\infty}n \cdot P[X = n] = \sum_{n=2}^{\infty}n \cdot \frac{1}
 $$
 Let us perform a change of variable, so that the above expression is easier to recognise. Let $k = n-2$, then the above becomes
 $$
-E[X] = \sum_{k=0}^{\infty} \frac{1}{n!} = e
+E[X] = \sum_{k=0}^{\infty} \frac{1}{k!} = e
 $$
 where $e$ is the <a class="text-link" href="https://en.wikipedia.org/wiki/E_(mathematical_constant)" target="_blank">mathematical constant</a>.
 <br>
@@ -157,8 +159,6 @@ I find this problem very interesting for a few reasons:
 </ul>
 <hr>
 <p><sup><span style="color:#BE9BFF;" id="footnote1">1</span></sup><span style="font-size:85%;">: &nbsp;This is not trivial to understand or to prove. Intuitively, since we have taken $n-1$ uniformly distributed samples, the probabilistic assumption is that they will be uniformly distributed. Then another sample taken from that uniform distribution is equally likely to fall in each of the bins created by the other samples. This can be formally proven using mathematical induction, but it is cumbersome.</span></p>
-</div>
-</div>
 </div>
 <script>hljs.initHighlightingOnLoad();</script>
 </body>

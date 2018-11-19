@@ -15,28 +15,6 @@ h3 {
     font-weight: 900;
 }
 
-h4 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-}
-
-#header {
-    /* Provide scrollbars if needed and fix the header dimensions */
-    overflow: auto;
-    position: absolute;
-    width: 800px;
-    height: 200px;
-}
-
-#main {
-    /* Provide scrollbars if needed, position below header, and derive height from top/bottom */
-    overflow: auto;
-    position: absolute;
-    width: 800px;
-    top: 200px;
-    bottom: 0;
-}
-
 .text-link:link, .text-link:visited {
     color: #BE9BFF;
 }
@@ -57,7 +35,7 @@ h4 {
 {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
-    font-size: 46pt;
+    font-size: 50pt;
     line-height: 54pt;
     color: #E5E4E2;
 }
