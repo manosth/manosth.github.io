@@ -24,6 +24,15 @@ h3 {
     text-decoration: none;
 }
 
+.text-link-head:link, .text-link-head:visited {
+    color: #E5E4E2;
+}
+
+.text-link-head:hover {
+    color: #F5F4F2;
+    text-decoration: none;
+}
+
 .content_container
 {
     width: 800px;
