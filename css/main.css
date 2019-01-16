@@ -31,8 +31,8 @@ hr {
 {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
-    font-size: 50pt;
-    line-height: 54pt;
+    font-size: 38pt;
+    line-height: 40pt;
     color: #E5E4E2;
 }
 
@@ -59,13 +59,13 @@ hr {
 
 .color-link
 {
-    color: #E5E4E2 !important;
+    -webkit-text-stroke: 1px #E5E4E2;
+    color: #161314 !important;
 }
 
 .color-link:hover
 {
-    -webkit-text-stroke: 1px #E5E4E2;
-    color: #161314 !important;
+    color: #E5E4E2 !important;
 }
 
 .emph
