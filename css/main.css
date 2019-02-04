@@ -11,11 +11,11 @@ hr {
 }
 
 .text-link:link, .text-link:visited {
-    color: #BE9BFF;
+    color: #98FF98;
 }
 
 .text-link:hover {
-    color: #9E7BFF;
+    color: #66CD66;
     text-decoration: none;
 }
 
