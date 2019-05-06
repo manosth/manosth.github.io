@@ -1,9 +1,9 @@
 body
 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 10pt;
-  color: #E5E4E2;
-  background-color: #161314;
+  font-size: 12pt;
+  color: #161314;
+  background-color: #F5F4F2;
 }
 
 hr {
@@ -16,20 +16,20 @@ h3 {
 }
 
 .text-link:link, .text-link:visited {
-    color: #BE9BFF;
+    color: #306EFF;
 }
 
 .text-link:hover {
-    color: #9E7BFF;
+    color: #609EFF;
     text-decoration: none;
 }
 
 .text-link-head:link, .text-link-head:visited {
-    color: #E5E4E2;
+    color: #161314;
 }
 
 .text-link-head:hover {
-    color: #F5F4F2;
+    color: #464344;
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ h3 {
     font-weight: 900;
     font-size: 50pt;
     line-height: 54pt;
-    color: #E5E4E2;
+    color: #161314;
 }
 
 .splash
