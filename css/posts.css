@@ -1,0 +1,55 @@
+body
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  color: #161314;
+  background-color: #F5F4F2;
+}
+
+hr {
+    opacity: 0.25;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.text-link:link, .text-link:visited {
+    color: #306EFF;
+}
+
+.text-link:hover {
+    color: #609EFF;
+    text-decoration: none;
+}
+
+.text-link-head:link, .text-link-head:visited {
+    color: #161314;
+}
+
+.text-link-head:hover {
+    color: #464344;
+    text-decoration: none;
+}
+
+.content_container
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title_text
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 50pt;
+    line-height: 54pt;
+    color: #161314;
+}
+
+.splash
+{
+  line-height: 20pt;
+}
