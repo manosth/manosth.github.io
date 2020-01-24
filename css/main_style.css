@@ -26,23 +26,9 @@ hr {
 
 .content_container
 {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.nav-pills{
-    font-weight: 400;
-}
-
-.nav-pills > li > a
-{
-    background-color: #161314 !important;
-}
-
-.nav-pills > .active
-{
-    font-weight: 900;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .color-link
