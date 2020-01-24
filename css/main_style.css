@@ -1,9 +1,13 @@
+ol {list-style-type: none;}
+ol > li:before {content: "[" counter(section) "] ";}
+ol > li { counter-increment: section;}
+
 body
 {
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
-  color: #E5E4E2;
-  background-color: #161314;
+  color: #484953;
+  background-color: #ECE6E7;
 }
 
 hr {
@@ -11,11 +15,11 @@ hr {
 }
 
 .text-link:link, .text-link:visited {
-    color: #98FF98;
+    color: #64709B;
 }
 
 .text-link:hover {
-    color: #66CD66;
+    color: #8490BB;
     text-decoration: none;
 }
 
@@ -25,22 +29,6 @@ hr {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.title_text
-{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    font-size: 38pt;
-    line-height: 40pt;
-    color: #E5E4E2;
-}
-
-.subtitle_text
-{
-    font-family: 'Raleway', sans-serif;
-    font-size: 20pt;
-    color: #E5E4E2;
 }
 
 .nav-pills{
@@ -59,13 +47,13 @@ hr {
 
 .color-link
 {
-    -webkit-text-stroke: 1px #E5E4E2;
-    color: #161314 !important;
+    font-size: 150%;
+    color: #484953;
 }
 
 .color-link:hover
 {
-    color: #E5E4E2 !important;
+    color: #6C6A70;
 }
 
 .emph
