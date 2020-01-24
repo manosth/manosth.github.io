@@ -5,12 +5,13 @@
     }
 
     div.info {
+        font-size: 75%;
         display: flex;
-        width: 50%;
+        margin-left: 25%;
     }
 
     div.picture {
-        height: 180px;
+        height: 150px;
     }
 }
 
@@ -29,6 +30,7 @@
 }
 
 .info {
+    font-size: 75%;
     height: 220px;
     margin-left: 25%;
 }
@@ -40,7 +42,7 @@
 body
 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12pt;
+  font-size: 10pt;
   color: #484953;
   width: 100%;
   background-color: #EFE9EA;
@@ -53,7 +55,7 @@ hr {
     opacity: 0.25;
 }
 
-ol {list-style-type: none;}
+ol {list-style-type: none;  padding-left: 0;}
 ol > li:before {content: "[" counter(section) "] ";}
 ol > li { counter-increment: section;}
 
