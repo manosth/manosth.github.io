@@ -1,18 +1,52 @@
-ol {list-style-type: none;}
-ol > li:before {content: "[" counter(section) "] ";}
-ol > li { counter-increment: section;}
+@media print, screen and (max-width: 960px) {
+    div.content_container {
+        width:auto;
+        margin:0;
+    }
+}
+
+.header {
+    height: 220px;
+    margin: auto;
+    padding: 10px;
+}
+
+.picture {
+    height: 220px;
+    border: 1px solid #484953;
+    background-color: #484953;"
+    width: 25%;
+    float: left;
+}
+
+.info {
+    height: 220px;
+    margin-left: 25%;
+}
+
+.research {
+    margin-top: 25px;
+}
 
 body
 {
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
   color: #484953;
-  background-color: #ECE6E7;
+  width: 100%;
+  background-color: #EFE9EA;
+  padding: 50px;
+  text-align: justify;
 }
 
 hr {
+    border-color: #484953;
     opacity: 0.25;
 }
+
+ol {list-style-type: none;}
+ol > li:before {content: "[" counter(section) "] ";}
+ol > li { counter-increment: section;}
 
 .text-link:link, .text-link:visited {
     color: #64709B;
@@ -24,11 +58,9 @@ hr {
 }
 
 
-.content_container
-{
-    width: auto;
-    margin-left: 50px;
-    margin-right: 50px;
+.content_container {
+    max-width: 750px;
+    margin: auto;
 }
 
 .color-link
@@ -40,15 +72,4 @@ hr {
 .color-link:hover
 {
     color: #6C6A70;
-}
-
-.emph
-{
-  color: #c02020;
-}
-
-.emphblack
-{
-  color: #000000;
-  font-weight: 700;
 }
