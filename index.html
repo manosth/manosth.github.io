@@ -12,9 +12,10 @@
     <!-- Style files, fonts, and Bootstrap -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
     <link rel="stylesheet" type="text/css" href="css/main_style.css">
@@ -34,25 +35,28 @@
 <body>
     <div class="content_container">
         <hr>
-        <div class="header">
-            <div class="picture">
-                <img src="images/IMG_9180_zoom.png" height="100%">
+        <div class="container">
+            <div class="row">
+            <div class="col-4">
+                <img src="images/IMG_9180_zoom.png" class="img-fluid rounded">
             </div>
-            <div class="info">
+            <div class="col info">
                 <p>
-                <span style="font-size: 200%;">Manos Theodosis</span>
+                <span style="font-size: 150%;">Manos Theodosis</span>
                 <br>
                 PhD candidate, Computer Science<br>
                 <a class="text-link" href="https://crisp.seas.harvard.edu">CRISP Lab</a>, Harvard University
                 <br>
                 <a class="text-link" href="mailto:etheodosis@g.harvard.edu">etheodosis@g.harvard.edu</a>
                 <br>
-                <span style="font-size: 150%">
-                <a class="color-link" href="https://twitter.com/manos_theo"><i class="fab fa-twitter-square"></i></a>
+                <span style="font-family: 'Cutive Mono', monospace; font-size: 125%;">[<a class="text-link" href="manosth.github.io/files/Theodosis_CV.pdf">curriculum vitae</a>]</span>
+                <span style="font-size: 150%"><br>
+                &nbsp;<a class="color-link" href="https://twitter.com/manos_theo"><i class="fab fa-twitter-square"></i></a>
                 &nbsp;<a class="color-link" href="https://github.com/manosth"><i class="fab fa-github-square"></i></a>
                 &nbsp;<a class="color-link" href="https://scholar.google.com/citations?user=O4BpD8YAAAAJ"><i style="font-size: 105%" class="ai ai-google-scholar-square"></i></a>
                 &nbsp;<a class="color-link" href="https://manosth.github.io/blog/index.html"><i class="fas fa-pen-square"></i></a></span>
                 </p>
+            </div>
             </div>
         </div>
         <div class="research">
@@ -69,43 +73,50 @@
         <hr>
         <div class="news">
             <p><b>News</b><br>
-            <span style="font-family: 'Cutive Mono', monospace;">[Jan 2020]</span> Two papers got accepted at ICASSP2020.<br>
-            <span style="font-family: 'Cutive Mono', monospace;">[Aug 2019]</span> Started PhD in Computer Science at Harvard University.
+            <span style="font-family: 'Cutive Mono', monospace; text-justify: none; display: inline-block; font-size:115%;">[<span style="color: #d9376e;">Jan 2020</span>]</span> Two papers got accepted at ICASSP2020.<br>
+            <span style="font-family: 'Cutive Mono', monospace; text-justify: none; display: inline-block; font-size:115%;">[<span style="color: #d9376e;">Aug 2019</span>]</span> Started PhD in Computer Science at Harvard University.
             </p>
         </div>
         <hr>
         <div id="publications">
             <p><b>Conference proceedings</b>
-            <ol style="list-style-type:none; font-size:85%;">
-                <li>Maragos P., <b>Theodosis E.</b> "Multivariate Tropical Regression and Piecewise-Linear Surface Fitting", <i>International Conference on Acoustics, Speech, and Signal Processing</i>, 2020<br>
-                <span style="font-family: 'Cutive Mono', monospace;">[<a class="text-link" href="manosth.github.io/files/papers/MaragosTheodosis_TropicalPiecewiseLinearRegression_ICASSP20.pdf">paper</a>]</span></li>
-                <li>Retsinas G., Filntisis P., Efthymiou N., <b>Theodosis E.</b>, Zlatintsi A., Maragos P. "Person Identification using Deep Convolutional Neural Networks on Short-Term Signals from Wearable Sensors", <i>International Conference on Acoustics, Speech, and Signal Processing</i>, 2020<br>
-                <span style="font-family: 'Cutive Mono', monospace;">[<a class="text-link" href="manosth.github.io/files/papers/RetsinasFilntisisEfthymiou+_PersonIdentificationWearableSensors_ICASSP20.pdf">paper</a>]</span></li>
-                <li><b>Theodosis E.</b>, Maragos P. "Tropical modeling of weighted transducers algorithms on graphs", <i>International Conference on Acoustics, Speech, and Signal Processing</i>, 2019<br>
-                <span style="font-family: 'Cutive Mono', monospace;">[<a class="text-link" href="manosth.github.io/files/papers/TheodosisMaragos_TropicalModeling_ICASSP19.pdf">paper</a>] [<a class="text-link" href="manosth.github.io/files/posters/Theodosis_ICASS19_poster.pdf">poster</a>]</span></li>
-                <li><b>Theodosis E.</b>, Maragos P. "Analysis of the viterbi algorithm using tropical algebra and geometry", <i>International Workshop on Signal Processing Advances in Wireless Communications</i>, 2018<br>
-                <span style="font-family: 'Cutive Mono', monospace;">[<a class="text-link" href="manosth.github.io/files/papers/TheodosisMaragos_TropicalViterbi_SPAWC18.pdf">paper</a>] [<a class="text-link" href="https://manosth.github.io/files/posters/Theodosis_SPAWC18_poster.pdf">poster</a>]</span></li>
+            <ol style="list-style-type:none;">
+                <li>Maragos P., <b>Theodosis E.</b> "Multivariate tropical regression and piecewise-linear surface fitting", <i>International Conference on Acoustics, Speech, and Signal Processing</i>, 2020.<br>
+                <span style="font-family: 'Cutive Mono', monospace; font-size:115%;">[<a class="text-link" href="manosth.github.io/files/papers/MaragosTheodosis_TropicalPiecewiseLinearRegression_ICASSP20.pdf">paper</a>]</span></li>
+                <li>Retsinas G., Filntisis P., Efthymiou N., <b>Theodosis E.</b>, Zlatintsi A., Maragos P. "Person identification using deep convolutional neural networks on short-term signals from wearable sensors", <i>International Conference on Acoustics, Speech, and Signal Processing</i>, 2020.<br>
+                <span style="font-family: 'Cutive Mono', monospace; font-size:115%;">[<a class="text-link" href="manosth.github.io/files/papers/RetsinasFilntisisEfthymiou+_PersonIdentificationWearableSensors_ICASSP20.pdf">paper</a>]</span></li>
+                <li><b>Theodosis E.</b>, Maragos P. "Tropical modeling of weighted transducers algorithms on graphs", <i>International Conference on Acoustics, Speech, and Signal Processing</i>, 2019.<br>
+                <span style="font-family: 'Cutive Mono', monospace; font-size:115%;">[<a class="text-link" href="manosth.github.io/files/papers/TheodosisMaragos_TropicalModeling_ICASSP19.pdf">paper</a>] [<a class="text-link" href="manosth.github.io/files/posters/Theodosis_ICASS19_poster.pdf">poster</a>]</span></li>
+                <li><b>Theodosis E.</b>, Maragos P. "Analysis of the viterbi algorithm using tropical algebra and geometry", <i>International Workshop on Signal Processing Advances in Wireless Communications</i>, 2018.<br>
+                <span style="font-family: 'Cutive Mono', monospace; font-size:115%;">[<a class="text-link" href="manosth.github.io/files/papers/TheodosisMaragos_TropicalViterbi_SPAWC18.pdf">paper</a>] [<a class="text-link" href="https://manosth.github.io/files/posters/Theodosis_SPAWC18_poster.pdf">poster</a>]</span></li>
             </ol>
             <b>Preprints</b>
-            <ol style="list-style-type:none; font-size:85%;">
-                <li><b>Theodosis E.</b>, Maragos P. "An adaptive pruning algorithm for spoofing localisation based on tropical geometry", <i>arXiv</i>, 2019</li>
+            <ol style="list-style-type:none;">
+                <li><b>Theodosis E.</b>, Maragos P. "A robust adaptive pruning algorithm based on tropical geometry", <i>Preprint</i>, 2019.<br>
+                <span style="font-family: 'Cutive Mono', monospace; font-size:115%;">[<a class="text-link" href="manosth.github.io/files/papers/TheodosisMaragos_RobustAdaptive_2019.pdf">paper</a>]</span></li>
             </ol>
             </p>
         </div>
         <hr>
         <div class="talks">
             <p><b>Talks</b><br>
-            <ol style="list-style-type:none; font-size:85%;">
-                <li><a class="text-link" href="manosth.github.io/files/talks/tropical_presentation_short.pdf">Tropical mathematics (and why you should care)</a>, CRISP lab, 2019
+            <ol style="list-style-type:none;">
+                <li><a class="text-link" href="manosth.github.io/files/talks/tropical_presentation_short.pdf">Tropical mathematics (and why you should care)</a>, CRISP lab, 2019.
             </li>
             </ol>
             </p>
         </div>
         <footer>
-            <hr>
-            <p style="font-size: 65%;">"Μηδείς ἀγεωμέτρητος εἰσίτω μοι τῇ θύρᾳ."<br>
-                - <i>Πλάτωνας, 387 π.Χ.</i><br>
-                <!--Hosted on GitHub Pages &mdash; Made by Manos Theodosis --></p>
+            <hr style="opacity: 0.10;">
+            <div>
+                <p style="font-size: 60%;">© 2020 Manos Theodosis &mdash; Hosted on GitHub Pages
+                </p>
+            </div>
+            <div style="text-align: center;">
+            <p style="font-size: 50%; opacity: 0.5;">"Μηδείς ἀγεωμέτρητος εἰσίτω μοι τῇ θύρᾳ."<br>
+            &mdash; Πλάτωνας, <i>387 π.Χ.</i><br>
+            </p>
+            </div>
         </footer>
     </div>
 </body>

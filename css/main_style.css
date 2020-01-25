@@ -1,38 +1,12 @@
-@media print, screen and (max-width: 720px) {
-    div.content_container {
-        width:auto;
-        margin:0;
-    }
-
-    div.info {
-        font-size: 50%;
-        display: flex;
-        margin-left: 50%;
-    }
-
-    div.picture {
-        height: 150px;
-    }
-}
-
-.header {
-    height: 220px;
-    margin: auto;
-    padding: 10px;
-}
-
-.picture {
-    height: 220px;
-    border: 1px solid #484953;
-    background-color: #484953;"
-    width: 25%;
-    float: left;
-}
-
 .info {
-    font-size: 75%;
-    height: 220px;
-    margin-left: 25%;
+    font-size: 85%;
+    text-justify: none;
+    display: inline-block;
+}
+
+.img-fluid {
+    border: 2px solid #484953;
+    background-color: #484953;
 }
 
 .research {
