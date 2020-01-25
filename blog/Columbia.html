@@ -39,7 +39,7 @@ I once heard two people at my university discussing a math problem. They claimed
 <br>
 <br>
 <center>
-    <p style="font-size: 95%; background: rgba(0, 0, 255, 0.25); border-radius: 5px;">
+    <p style="font-size: 95%; background: rgba(0, 0, 255, 0.25); border-radius: 2px; padding: 5px;">
     <i>"Suppose the following experiment: we draw random samples, one at a time, from a uniform distribution. The experiment ends when we draw a sample that was greater from the last. What is the expected time $n$ that the experiment will run for?"</i>
     </p>
 </center>
@@ -84,9 +84,9 @@ for idx in range(t):
         prev = nxt
         nxt = random.random()
         counter += 1
-    winning.append(counter)
+    winning.<span style="color: #85F589;">append</span>(counter)
 
-print "Average: " + str(sum(winning) / float(t))
+print "Average: " + <span style="color: #85F589;">str</span>(<span style="color: #85F589;">sum</span>(winning) / <span style="color: #85F589;">float</span>(t))
 </code></pre>
 
 In the above code, we run $t = 1000000$ iterations of the experiment and stored in a list the value $n$ at which each experiment ended. By running the above code, we get an average value of $2.719059$. Our intuition was correct! Many of the experiments will end at the second draw, and the ones that go on after the third draw are <i>very</i> limited. So why is this question interesting? Because deriving the result formally, and providing an exact answer, is a lot more intricate.
@@ -158,7 +158,7 @@ I find this problem very interesting for a few reasons:
     <li>The mathematical constant $e$ arises at the very end. It is very frequent for students to question teachers about how the mathematical constants are used in practice; this is a good, and unexpected, example.</li>
 </ul>
 <hr>
-<p><sup><span style="color:#306EFF;" id="footnote1">1</span></sup><span style="font-size:85%;">: &nbsp;This is not trivial to understand or to prove. Intuitively, since we have taken $n-1$ uniformly distributed samples, the probabilistic assumption is that they will be uniformly distributed. Then another sample taken from that uniform distribution is equally likely to fall in each of the bins created by the other samples. This can be formally proven using mathematical induction, but it is cumbersome.</span></p>
+<p><sup><span style="color:#d9376e;" id="footnote1">1</span></sup><span style="font-size:85%;">: &nbsp;This is not trivial to understand or to prove. Intuitively, since we have taken $n-1$ uniformly distributed samples, the probabilistic assumption is that they will be uniformly distributed. Then another sample taken from that uniform distribution is equally likely to fall in each of the bins created by the other samples. This can be formally proven using mathematical induction, but it is cumbersome.</span></p>
 </div>
 <script>hljs.initHighlightingOnLoad();</script>
 </body>

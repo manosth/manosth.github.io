@@ -1,9 +1,12 @@
 body
 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 11pt;
-  color: #E5E4E2;
-  background-color: #161314;
+  font-size: 10pt;
+  color: #484953;
+  width: 100%;
+  background-color: #EFE9EA;
+  padding: 50px;
+  text-align: justify;
 }
 
 hr {
@@ -11,17 +14,12 @@ hr {
 }
 
 .text-link:link, .text-link:visited {
-    color: #BE9BFF;
+    color: #d9376e;
 }
 
 .text-link:hover {
-    color: #9E7BFF;
+    color: #f9578e;
     text-decoration: none;
-}
-
-.main_container
-{
-
 }
 
 .content_container
@@ -29,61 +27,4 @@ hr {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.title_text
-{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 750;
-    font-size: 36pt;
-    line-height: 54pt;
-    color: #E5E4E2;
-}
-
-.subtitle_text
-{
-    font-family: 'Raleway', sans-serif;
-    font-size: 14pt;
-    color: #E5E4E2;
-}
-
-.nav-pills{
-    font-weight: 100;
-}
-
-.nav-pills > li > a
-{
-    background-color: #161314 !important;
-}
-
-.nav-pills > .active
-{
-    font-weight: 800;
-}
-
-.color-link
-{
-    color: #E5E4E2 !important;
-}
-
-.color-link:hover
-{
-    -webkit-text-stroke: 1px #E5E4E2;
-    color: #161314 !important;
-}
-
-.emph
-{
-  color: #c02020;
-}
-
-.emphblack
-{
-  color: #000000;
-  font-weight: 700;
-}
-
-.splash
-{
-  line-height: 20pt;
 }
