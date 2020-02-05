@@ -19,7 +19,7 @@ body
   font-size: 10pt;
   color: #484953;
   width: 100%;
-  background-color: #EFE9EA;
+  background-color: #E8E8E8;
   padding: 50px;
   text-align: justify;
 }
@@ -34,11 +34,11 @@ ol > li:before {content: "[" counter(section) "] ";}
 ol > li { counter-increment: section;}
 
 .text-link:link, .text-link:visited {
-    color: #64709B;
+    color: #d9376e;
 }
 
 .text-link:hover {
-    color: #8490BB;
+    color: #F9579e;
     text-decoration: none;
 }
 
