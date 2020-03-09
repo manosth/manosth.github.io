@@ -16,10 +16,10 @@
 body
 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 10pt;
-  color: #484953;
+  font-size: 12pt;
+  color: #181923;
   width: 100%;
-  background-color: #F8F8F8;
+  background-color: #FEFEFE;
   padding: 50px;
   text-align: justify;
 }
@@ -34,11 +34,11 @@ ol > li:before {content: "[" counter(section) "] ";}
 ol > li { counter-increment: section;}
 
 .text-link:link, .text-link:visited {
-    color: #d9376e;
+    color: #508EFF;
 }
 
 .text-link:hover {
-    color: #F9579e;
+    color: #306EFF;
     text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ ol > li { counter-increment: section;}
 .color-link
 {
     font-size: 150%;
-    color: #484953;
+    color: #383943;
 }
 
 .color-link:hover
