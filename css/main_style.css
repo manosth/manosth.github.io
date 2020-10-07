@@ -1,5 +1,5 @@
 .info {
-    font-size: 85%;
+    font-size: 10pt;
     text-justify: none;
     display: inline-block;
 }
@@ -15,9 +15,9 @@
 
 body
 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 12pt;
-  color: #181923;
+  color: #252525;
   width: 100%;
   background-color: #FEFEFE;
   padding: 50px;
@@ -29,32 +29,74 @@ hr {
     opacity: 0.25;
 }
 
-ol {list-style-type: none;  padding-left: 0;}
-ol > li:before {content: "[" counter(section) "] ";}
+ol {list-style-type: none; padding-left: 0;}
+ol > li:before {content: "[" counter(section) "] "; font-weight: bold;}
 ol > li { counter-increment: section;}
 
 .text-link:link, .text-link:visited {
-    color: #508EFF;
+    background-color: #e9e9e9;
+    color: #525252;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .text-link:hover {
-    color: #306EFF;
+    background-color: #c7e9c0;
+    color: #238b45;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
     text-decoration: none;
 }
 
+.news-text {
+    font-weight: bold;
+    color: #ef6548;
+    text-align: center;
+}
+
+.author-text {
+    font-weight: bold;
+    font-size: 10pt;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #fdd49e;
+    color: #ef6548;
+}
+
+.publication-text {
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #e9e9e9;
+    color: #525252;
+}
 
 .content_container {
     max-width: 750px;
     margin: auto;
 }
 
-.color-link
-{
-    font-size: 150%;
-    color: #383943;
+.color-link {
+    font-size: 20pt;
+    border-radius: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 2px;
+    background-color: #e9e9e9;
+    color: #525252;
 }
 
-.color-link:hover
-{
-    color: #6C6A70;
+.color-link:hover {
+    border-radius: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 2px;
+    background-color: #c7e9c0;
+    color: #238b45;
 }
