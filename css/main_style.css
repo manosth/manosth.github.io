@@ -4,7 +4,7 @@
     display: inline-block;
 }
 
-.img-fluid {
+.img-fluid-border {
     border: 2px solid #484953;
     background-color: #484953;
 }

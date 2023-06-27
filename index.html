@@ -36,7 +36,7 @@
         <div class="container">
             <div class="row">
             <div class="col-4">
-                <img src="images/IMG_9180_zoom.png" class="img-fluid rounded">
+                <img src="images/IMG_9180_zoom.png" class="img-fluid img-fluid-border rounded">
             </div>
             <div class="col-8 info">
                 <p>
@@ -57,13 +57,66 @@
             </div>
         </div>
         <div class="research">
-            <p>I am a <b>fourth</b> year PhD student in Computer Science at Harvard University, advised by <a class="text-link" href="http://demba-ba.org">Demba Ba</a>. My research interests revolve around deep learning, mathematics, and optimization. I'm particularly interested in representations, geometry and topology, and dynamics in deep learning. During the summer of 2021 I interned at Amazon Web Services where I had the pleasure to be hosted by <a class="text-link" href="https://www.amazon.science/author/karim-helwani">Karim Helwani</a>. I finished my undergraduate studies at the National Technical University of Athens in Greece, where I conducted my thesis in tropical geometry under the supervision of <a class="text-link" href="http://cvsp.cs.ntua.gr/maragos/">Petros Maragos</a>.
+            <p>I am a <b>fifth</b> year PhD student in Computer Science at Harvard University, advised by <a class="text-link" href="http://demba-ba.org">Demba Ba</a>. My research interests revolve around deep learning, mathematics, and optimization. I'm particularly interested in representations, geometry and topology, and dynamics in deep learning. During the summer of 2021 I interned at Amazon Web Services where I had the pleasure to be hosted by <a class="text-link" href="https://www.amazon.science/author/karim-helwani">Karim Helwani</a>. I finished my undergraduate studies at the National Technical University of Athens in Greece, where I conducted my thesis in tropical geometry under the supervision of <a class="text-link" href="http://cvsp.cs.ntua.gr/maragos/">Petros Maragos</a>.
             </p>
             <br>
             <p>
             <b>Mentoring:</b> As a first-generation student, I'm passionate about providing help and guidance to people who have no access to it. This led to the creation of a mentoring initiative, <a class="text-link" href="https://manosth.github.io/mentoring_initiative/">MentoRes</a>, along with  <a class="text-link" href="https://angelhof.github.io">Konstantinos Kallas</a>, that intends to help people applying for PhD programs in Computer Science or engineering fields. I'm always happy to chat and give advice, even if it's unrelated to PhD applications.
             </p>
-            <p><b>Personal:</b> I was born and spent the first couple of years of my life in Crete. I then moved to Athens, where I spent most of my life (save for the summers which were always in Crete) before coming to the US for my PhD. I enjoy quotes a lot and keep <a class="text-link" href="quotes.html">lists</a> of my current favorites. My favorite book is probably The Cider House Rules, I'm a movie buff with a soft spot for tasteful thrillers and horror movies, and I enjoy skill-based video games. I play board games weekly, mainly social deception and minmax euro games. I love national parks, but unfortunately my quest to visit all of them has lagged behind due to COVID.
+            <p><b>Personal:</b> I was born and spent the first couple of years of my life in Crete. I then moved to Athens, where I spent most of my life before coming to the US for my PhD. I enjoy quotes a lot and keep <a class="text-link" href="quotes.html">lists</a> of my current favorites. My favorite book is "The Cider House Rules" by John Irving, I'm a movie buff with a soft spot for tasteful thrillers and horror movies, and I enjoy skill-based video games. I play board games weekly, mainly social deception and minmax euro games. I love national parks, but unfortunately my quest to visit all of them has lagged behind due to COVID.
+            </p>
+        </div>
+        <hr>
+        <div id="projects">
+            <p><b>Projects</b><br>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/equivariance.png" class="img-fluid">
+                    </div>
+                    <div class="col-8">
+                        <p><b>Equivariance</b><br>
+                            Neural networks have achieved state-of-the-art results in many fields, however it's not clear how to design networks the respect, and account for, the inductive biases of a particular task. This line of work studies principled ways to encode, and learn, inductive biases in neural networks, resulting in better performance, interpretability, and reduced numbers of parameters.
+                        </p>
+                        <br>
+                        <p style="font-size: 10pt;">
+                        Relevant papers:<br>
+                        - "<a class="text-link" href="https://manosth.github.io/files/papers/TheodosisHelwaniBa_LearningLinearGroups_arXiv23.pdf">Learning linear groups in neural networks</a>"<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/group_sparsity.png" class="img-fluid">
+                    </div>
+                    <div class="col-8">
+                        <p><b>Structured representations</b><br>
+                            Learning meaningful representations is instrumental for most learning problems. Representations with appropriate properties can reduce model sizes, improve performance. and be more interpretable by being better suited to the task at hand. This line of work studies how to construct networks whose representations satisfy these given constraints.
+                        </p>
+                        <br>
+                        <p style="font-size: 10pt;">
+                        Relevant papers:<br>
+                        - "<a class="text-link" href="https://manosth.github.io/manosth.github.io/files/papers/TheodosisTolooshamsTankala+_GroupSparseAE_ICML21">On the convergence of group-sparse autoencoders</a>"<br>
+                        - "<a class="text-link" href="https://manosth.github.io/manosth.github.io/files/papers/TasissaTheodosisTolooshams+_DualSignalRecovery_arXiv20.pdf">Towards improving discriminative reconstruction via simultaneous dense and sparse coding</a>"
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/tgml.png" class="img-fluid">
+                    </div>
+                    <div class="col-8">
+                        <p><b>Tropical geometry</b><br>
+                            Linear algebra powers most learning systems today; however, there are nonlinear algebras that are more expressive and better suited for certain applications. This line of work studies how these algebras can be used in various machine learning settings to model problems of interest, resulting in new algorithms, unified formulations, and intuitive explanations.
+                        </p>
+                        <br>
+                        <p style="font-size: 10pt;">
+                        Relevant papers:<br>
+                        - "<a class="text-link" href="https://manosth.github.io/manosth.github.io/files/papers/MaragosCharisopoulosTheodosis_TGML_IEEEProc20.pdf">Tropical Geometry and Machine Learning</a>"<br>
+                        - "<a class="text-link" href="https://manosth.github.io/files/papers/TheodosisMaragos_TropicalModeling_ICASSP19.pdf">Tropical modeling of weighted transducers algorithms on graphs</a>"
+                        </p>
+                        </p>
+                    </div>
+                </div>
             </p>
         </div>
         <hr>
@@ -71,31 +124,31 @@
             <p><b>Select publications</b>
             <ol style="list-style-type:none;">
                 <li><b>Theodosis E.</b>, Helwani K., and Ba D.<br>
-                <a class="text-link" href="https://manosth.github.io/files/papers/TheodosisHelwaniBa_LearningLinearGroups_arXiv23.pdf">"Learning linear groups in neural networks"</a><br>
+                "<a class="text-link" href="https://manosth.github.io/files/papers/TheodosisHelwaniBa_LearningLinearGroups_arXiv23.pdf">Learning linear groups in neural networks</a>"<br>
                 <i>arXiv</i>, 2023
                 </li>
                 <li><b>Theodosis E.</b> and Ba D.<br>
-                <a class="text-link" href="https://manosth.github.io/files/papers/TheodosisBa_SilhouetteLearning_ICASSP23.pdf">"Learning silhouettes with group sparse autoencoders"</a><br>
+                "<a class="text-link" href="https://manosth.github.io/files/papers/TheodosisBa_SilhouetteLearning_ICASSP23.pdf">Learning silhouettes with group sparse autoencoders</a>"<br>
                 <i>International Conference on Acoustics, Speech, and Signal Processing</i>, 2023
                 </li>
                 <li>Maragos P., Charisopoulos V., <b>Theodosis E.</b><br>
-                <a class="text-link" href="https://manosth.github.io/manosth.github.io/files/papers/MaragosCharisopoulosTheodosis_TGML_IEEEProc20.pdf">"Tropical Geometry and Machine Learning"</a><br>
+                "<a class="text-link" href="https://manosth.github.io/manosth.github.io/files/papers/MaragosCharisopoulosTheodosis_TGML_IEEEProc20.pdf">Tropical Geometry and Machine Learning</a>"<br>
                 <i>Proceedings of the IEEE</i>, vol. 109, no. 5, pp. 728-755, 2021
                 </li>
                 <li><b>Theodosis E.</b>, Tolooshams B., Tankala P., Tasissa A., Ba D.<br>
-                <a class="text-link" href="https://manosth.github.io/manosth.github.io/files/papers/TheodosisTolooshamsTankala+_GroupSparseAE_ICML21">"On the convergence of group-sparse autoencoders"</a><br>
+                "<a class="text-link" href="https://manosth.github.io/manosth.github.io/files/papers/TheodosisTolooshamsTankala+_GroupSparseAE_ICML21">On the convergence of group-sparse autoencoders</a>"<br>
                 <i>arXiv</i>, 2021
                 </li>
                 <li>Tasissa A., <b>Theodosis E.</b>, Tolooshams B., Ba D.<br>
-                <a class="text-link" href="https://manosth.github.io/manosth.github.io/files/papers/TasissaTheodosisTolooshams+_DualSignalRecovery_arXiv20.pdf">"Towards improving discriminative reconstruction via simultaneous dense and sparse coding"</a><br>
+                "<a class="text-link" href="https://manosth.github.io/manosth.github.io/files/papers/TasissaTheodosisTolooshams+_DualSignalRecovery_arXiv20.pdf">Towards improving discriminative reconstruction via simultaneous dense and sparse coding</a>"<br>
                 <i>arXiv</i>, 2020
                 </li>
                 <li>Maragos P., <b>Theodosis E.</b><br>
-                <a class="text-link" href="https://manosth.github.io/files/papers/MaragosTheodosis_TropicalPiecewiseLinearRegression_ICASSP20.pdf">"Multivariate tropical regression and piecewise-linear surface fitting"</a><br>
+                "<a class="text-link" href="https://manosth.github.io/files/papers/MaragosTheodosis_TropicalPiecewiseLinearRegression_ICASSP20.pdf">Multivariate tropical regression and piecewise-linear surface fitting</a>"<br>
                 <i>International Conference on Acoustics, Speech, and Signal Processing</i>, 2020
                 </li>
                 <li><b>Theodosis E.</b>, Maragos P.<br>
-                <a class="text-link" href="https://manosth.github.io/files/papers/TheodosisMaragos_TropicalModeling_ICASSP19.pdf">"Tropical modeling of weighted transducers algorithms on graphs"</a><br>
+                "<a class="text-link" href="https://manosth.github.io/files/papers/TheodosisMaragos_TropicalModeling_ICASSP19.pdf">Tropical modeling of weighted transducers algorithms on graphs</a>"<br>
                 <i>International Conference on Acoustics, Speech, and Signal Processing</i>, 2019
                 </li>
             </ol>
@@ -105,10 +158,10 @@
         <div class="talks">
             <p><b>Talks</b><br>
             <ol style="list-style-type:none;">
-                <li><a class="text-link" href="https://manosth.github.io/files/talks/tufts_dss_2023-04-20.pdf">"Constraining neural networks for inverse problems"</a><br>
+                <li><a class="text-link" href="https://manosth.github.io/files/talks/tufts_dss_2023-04-20.pdf">Constraining neural networks for inverse problems</a><br>
                 <i>DISC & TIAI Annual Symposium</i>, April 20 2023
                 </li>
-                <li><a class="text-link" href="https://manosth.github.io/files/talks/iaifi_lightingtalk_2023-03-17.pdf">"Constraining neural networks to craft representations"</a><br>
+                <li><a class="text-link" href="https://manosth.github.io/files/talks/iaifi_lightingtalk_2023-03-17.pdf">Constraining neural networks to craft representations</a><br>
                 <i>IAIFI Lighting Talks</i>, March 17 2023
                 </li>
             </ol>
@@ -119,11 +172,6 @@
             <div>
                 <p style="font-size: 10pt;">© 2019-2024 Manos Theodosis&mdash;Hosted on GitHub Pages <span style="float:right">Last update: June 2023</span>
                 </p>
-            </div>
-            <div style="text-align: center;">
-            <p style="font-size: 8pt; opacity: 0.5;">"Μηδείς ἀγεωμέτρητος εἰσίτω μοι τῇ θύρᾳ."<br>
-            &mdash; Πλάτωνας, <i>387 π.Χ.</i><br>
-            </p>
             </div>
         </footer>
     </div>
